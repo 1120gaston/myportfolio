@@ -3687,7 +3687,7 @@ No matching component was found for:
 	})]
 }), e7 = Mh($9, "experience"), Lb = ({ id: n, name: e, description: t, image: i, repo: r, demo: s, index: o, active: a, handleClick: u }) => ee.jsxs(Vi.div, {
 	variants: Pg("right", "spring", o * .5, .75), className: `relative ${a === n ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"} flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`, onClick: () => u(n), children: [ee.jsx("div", { className: "absolute top-0 left-0 z-10 bg-jetLight h-full w-full opacity-[0.5] rounded-[24px]" }), ee.jsx("img", { src: i, alt: e, className: "absolute w-full h-full object-cover rounded-[24px]" }), a !== n ? ee.jsx("div", {
+      h-[420px] cursor-pointer card-shadow`, onClick: () => u(n), children: [ee.jsx("div", { className: "absolute top-0 left-0 z-10 bg-jetLight h-full w-full opacity-[0.5] rounded-[24px] " }), ee.jsx("img", { src: i, alt: e, className: "absolute w-full h-full object-cover rounded-[24px]" }), a !== n ? ee.jsx("div", {
 		className: "flex items-center justify-start pr-[4.5rem]", children: ee.jsx("h3", {
 			className: `font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
